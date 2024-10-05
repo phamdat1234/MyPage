@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(anh2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.tablinks {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.tablinks:hover {
+    background-color: #ddd;
+}
+.tabcontent {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 20px auto;
+    width: 50%;
+    background-color: #f9f9f9;
+}

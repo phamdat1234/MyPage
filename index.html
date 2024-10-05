@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPage</title>
+    <link rel="stylesheet" href="style.css"> <!-- Liên kết đến tệp CSS -->
+</head>
+<body>
+
+    <h1>MyPage</h1>
+    <div class="tabs">
+        <button class="tablinks" onclick="openTab(event, 'Tab1')">Tab1</button>
+        <button class="tablinks" onclick="openTab(event, 'Tab2')">Tab2</button>
+        <button class="tablinks" onclick="openTab(event, 'Tab3')">Tab3</button>
+        <button class="tablinks" onclick="openTab(event, 'Tab4')">Tab4</button>
+    </div>
+
+    <!-- Sử dụng liên kết để mở nội dung từ Lab2_2 -->
+    <div id="Tab1" class="tabcontent">
+        <h2>Tab 1</h2>
+        <iframe src="index1.html" style="width:100%; height:500px;" frameborder="0"></iframe>
+
+    </div>
+
+    <div id="Tab2" class="tabcontent">
+        <h2>Tab 2</h2>
+        <iframe src="index2.html" style="width:100%; height:500px;" frameborder="0"></iframe>
+    </div>
+
+    <div id="Tab3" class="tabcontent">
+        <h2>Tab 3</h2>
+        <p>Nội dung của Tab 3.</p>
+    </div>
+
+    <div id="Tab4" class="tabcontent">
+        <h2>Tab 4</h2>
+        <p>Nội dung của Tab 4.</p>
+    </div>
+
+    <script src="script.js"></script> <!-- Liên kết đến tệp JavaScript -->
+</body>
+</html>
