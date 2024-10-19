@@ -1,2 +1,3 @@
 # MyPage
-page have two labs
+page have 4 labs
+
